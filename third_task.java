@@ -21,7 +21,7 @@ public class third_task {
             var  m = linkedList.get(random.nextInt(linkedList.size()));
         }
         long Time3 = System.currentTimeMillis();
-        long timeofarray = Time2;
+        long timeofarray = Time2-Time1;
         long timeoflist = Time3-Time1;
         System.out.println(timeofarray);
         System.out.println(timeoflist);
